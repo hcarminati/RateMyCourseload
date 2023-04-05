@@ -16,7 +16,8 @@ public class CourseService {
     this.courseRepository = courseRepository;
   }
 
-  public List<Course> getCourses() { return courseRepository.findAll();
+  public List<Course> getCourses() {
+    return courseRepository.findAll();
   }
 
   public void addNewCourse(Course course) {

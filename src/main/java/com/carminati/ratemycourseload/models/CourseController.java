@@ -21,7 +21,7 @@ public class CourseController {
     this.courseService = courseService;
   }
 
-  @GetMapping("api/v1/course")
+  @GetMapping("api/v1/courses")
   public List<Course> getCourses() {
     return courseService.getCourses();
   }
