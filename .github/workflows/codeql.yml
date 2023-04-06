@@ -74,3 +74,13 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
+        
+    - name: First interaction
+      uses: actions/first-interaction@v1.1.1
+      with:
+        # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        # Comment to post on an individual's first issue
+        issue-message: "Welcome to our repository! Thank you for opening your first issue."
+        # Comment to post on an individual's first pull request
+        pr-message: "Thanks for submitting your first pull request! We appreciate your contribution."
