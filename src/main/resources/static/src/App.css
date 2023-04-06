@@ -1,0 +1,28 @@
+.mainHeader {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.search_cards {
+  padding: 20px;
+
+  margin: auto;
+  width: 100%;
+  /*width: 83.01%;*/
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #121212;
+}
