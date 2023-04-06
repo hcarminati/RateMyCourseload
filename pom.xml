@@ -10,13 +10,22 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.carminati</groupId>
-    <artifactId>RateMyCourseLoad</artifactId>
+    <artifactId>ratemycourseload</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>RateMyCourseLoad</name>
     <description>RateMyCourseLoad</description>
     <properties>
         <java.version>17</java.version>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>RateMyCourseLoad</name>
+            <url>https://maven.pkg.github.com/hcarminati/ratemycourseload</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
