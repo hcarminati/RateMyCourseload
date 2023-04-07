@@ -21,12 +21,12 @@ public class CourseController {
     this.courseService = courseService;
   }
 
-  @GetMapping("api/v1/courses")
+  @GetMapping("/api/v1/courses")
   public List<Course> getCourses() {
     return courseService.getCourses();
   }
 
-  @PostMapping("api/v1/course")
+  @PostMapping("/api/v1/course")
   public void registerNewCourse(@RequestBody Course course) {
     courseService.addNewCourse(course);
   }
