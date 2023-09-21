@@ -2,6 +2,9 @@
 
 RateMyCourseLoad is a platform that enables students to rate and compare course loads, allowing them to make informed decisions when selecting courses. The goal of this project is to provide a tool that helps students navigate the often complex process of course selection, and ultimately, improve their academic experience.
 
+## UI Design
+✏️ [Figma Link](https://www.figma.com/file/ZpGcmRXzo9i0zkGJW2kQfA/RateMyCourseLoad?type=design&node-id=7%3A2&mode=design&t=OZvRzRjIZzzAS8mR-1)
+
 ## Getting Started
 
 To get started with the project, simply clone the repository to your local machine:
